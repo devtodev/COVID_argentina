@@ -3,9 +3,9 @@ import json
 import numpy as np
 import time
 
-file_zonas = "/srv/http/data_zonas.json"
-file_totales = "/srv/http/data_totales.json"
-file_edades = "/srv/http/data_provincias_edades.json"
+file_zonas = "data_zonas.json"
+file_totales = "data_totales.json"
+file_edades = "data_provincias_edades.json"
 TAG_COVIDPOSITIVO = "totales"
 TAG_TESTS = "test"
 
