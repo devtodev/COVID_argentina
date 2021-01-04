@@ -54,6 +54,7 @@ if ! checkForUpdates; then
 	exit 1
 fi
 echo "Downloading"
+rm $DATAFILE
 cmd="wget $DATAFILE"
 RESPONSE=`$cmd`
 echo "Loading"
